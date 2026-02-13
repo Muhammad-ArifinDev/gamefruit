@@ -27,3 +27,15 @@ class Gamescreen extends StatelessWidget {
           );
   }
   }
+  class Gamescreen extends StatelessWidget {
+    const Gamescreen ({super.key});
+    @override
+    State<Gamescreen> createState() => _GameScreenState();
+  }
+  class _GameScreenState extends State<Gamescreen> {
+    @override
+    void initState() {
+      super.initState();
+    }
+    
+  }
